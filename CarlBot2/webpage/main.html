@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                <h2 class="company_title">CarlBOT</h2>
+                <ul>
+                    <li class="header-list-of-links">Login</li>
+                    <li class="header-list-of-links">Names</li>
+                    <li class="header-list-of-links">Kindness</li>
+                </ul>    
+            </div>
+        </header>
+        <div class="body-text-wrapper">
+            <h2 class="body-titles">What is CarlBOT?</h2>
+            <p class="wrapper-paragraph">CarlBOT is the unofficial name for a past project that I decided to bring to light again and improve on its design. As the sole creator of this machine, I felt it was only right to make a blog issuing updates, and my personal thoughts, about the project. I am incredibly happy to share my invention with the people that I can and I consider myself very fortunate that even one person would even choose to read this, if you are one of those people then you have my most humble gradittude my friend!</p>
+            <div class="container">
+                <p id="output_sentence" class="AI-text-Output">output</p>
+                <div class="bottom-text-box">
+                        
+                    <input type="text" pattern="[a-z]{4,8}"id="input_sentence"/>
+                    <button id="button">sperm</button>
+                </div>
+            </div>
+        </div>
+        <script>
+            const button = document.getElementById('button');
+            const input_sentence = document.getElementById('input_sentence');
+            const name = document.getElementById('output_sentence')
+
+            function upload_sentence(sent){
+                name.innerText = sent
+            }
+
+        
+
+            button.addEventListener('click', () => {
+                upload_sentence(input_sentence.value)
+            })
+        </script>
+    </body>
+</html>

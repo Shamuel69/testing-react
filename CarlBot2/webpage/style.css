@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin:wght@300&family=Lora:ital@1&family=Merriweather:ital,wght@1,700&family=Noto+Sans:wght@500&family=Noto+Serif:ital@1&family=Nunito+Sans:opsz,wght@6..12,700&family=Roboto+Serif:ital,opsz,wght@1,8..144,400;1,8..144,500;1,8..144,600&family=Roboto+Slab:wght@500&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    background-color: rgb(240, 240, 239);
+}
+.wrapper {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    padding: auto 10%;   
+}
+.body-text-wrapper{
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    padding: auto 10%; 
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: rgb(120, 181, 161);
+
+}
+header{
+    background-color: rgb(240, 240, 239);
+    color: rgb(86, 176, 112);
+    height: 100px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: rgb(120, 181, 161);
+}
+.company_title{
+    width: 25%;
+    height: 50%;
+    padding-top: 30px;
+    line-height: 100%;
+    font-size: 40px;
+    float: left;
+    font-family: system-ui,  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Varela Round";
+    display:block;
+}
+.wrapper ul{
+    float: right;
+    padding-top: 35px;
+    height: 50%;
+    width: 50%;
+    font-weight: 70px;
+    font-size: 23px;
+    font-family: system-ui,  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Varela Round";
+
+}
+.header-list-of-links {
+    float: right;
+    display: block;
+    padding-left: 30px;
+}
+.body-titles {
+    font-family: system-ui,  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Varela Round";
+    text-indent: 2em;
+    padding: 20px;
+    
+}
+.wrapper-paragraph{
+    text-indent: 4em;
+    width: 80%;
+    line-height:1.5em;
+    font-size: 18px;
+    font-family: "Libre Franklin", "Open-Sans", system-ui;
+    color: rgb(86, 86, 86);
+    margin: auto;
+}
+.container{
+    background-color: rgb(50, 44, 44);
+    width: 80%;
+    height: 240px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: rgb(100, 181, 161);
+    margin:0 auto;
+}
+.AI-text-Output{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items:flex-end;
+    font-family: "Libre Franklin", "Open-Sans", system-ui;
+    color: aliceblue;
+}
+.text-box {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(50, 44, 44);
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: rgb(100, 181, 161);
+    
+}
+.bottom-text-box{
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.bottom-text-box input{
+    background-color: transparent;
+    width: 80%;
+    border: transparent;    
+    border-bottom: 2px solid gray;
+}
+.bottom-text-box button{
+    float: right;
+}

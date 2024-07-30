@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "scheme": "aora",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "Parksie",
+    "slug": "Parksie"
+  }
+}
