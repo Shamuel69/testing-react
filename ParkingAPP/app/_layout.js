@@ -5,26 +5,26 @@ import { SplashScreen, Stack } from 'expo-router'
 
 SplashScreen.preventAutoHideAsync();
  
-const _layout = () => {
+const Fonts = () => {
   const [fontsLoaded, error] = useFonts({
-    "Poppins-Black": require("../assets/css/fonts/Poppins-Black.ttf"),
-    "Poppins-BlackItalic": require("../assets/css/fonts/Poppins-BlackItalic.ttf"),
-    "Poppins-Bold": require("../assets/css/fonts/Poppins-Bold.ttf"),
-    "Poppins-BoldItalic": require("../assets/css/fonts/Poppins-BoldItalic.ttf"),
-    "Poppins-ExtraBold": require("../assets/css/fonts/Poppins-ExtraBold.ttf"),
-    "Poppins-ExtraBoldItalic": require("../assets/css/fonts/Poppins-ExtraBoldItalic.ttf"),
-    "Poppins-ExtraLight": require("../assets/css/fonts/Poppins-ExtraLight.ttf"),
-    "Poppins-ExtraLightItalic": require("../assets/css/fonts/Poppins-ExtraLightItalic.ttf"),
-    "Poppins-Italic": require("../assets/css/fonts/Poppins-Italic.ttf"),
-    "Poppins-Light": require("../assets/css/fonts/Poppins-Light.ttf"),
-    "Poppins-LightItalic": require("../assets/css/fonts/Poppins-LightItalic.ttf"),
-    "Poppins-Medium": require("../assets/css/fonts/Poppins-Medium.ttf"),
-    "Poppins-MediumItlaic": require("../assets/css/fonts/Poppins-MediumItalic.ttf"),
-    "Poppins-Regular": require("../assets/css/fonts/Poppins-Regular.ttf"),
-    "Poppins-SemiBold": require("../assets/css/fonts/Poppins-SemiBold.ttf"),
-    "Poppins-SemiBoldItalic": require("../assets/css/fonts/Poppins-SemiBoldItalic.ttf"),
-    "Poppins-Thin": require("../assets/css/fonts/Poppins-Thin.ttf"),
-    "Poppins-ThinItalic": require("../assets/css/fonts/Poppins-ThinItalic.ttf"),
+    "font-PBlack": require("../assets/css/fonts/Poppins-Black.ttf"),
+    "font-PBlackItalic": require("../assets/css/fonts/Poppins-BlackItalic.ttf"),
+    "font-PBold": require("../assets/css/fonts/Poppins-Bold.ttf"),
+    "font-PBoldItalic": require("../assets/css/fonts/Poppins-BoldItalic.ttf"),
+    "font-PExtraBold": require("../assets/css/fonts/Poppins-ExtraBold.ttf"),
+    "font-PExtraBoldItalic": require("../assets/css/fonts/Poppins-ExtraBoldItalic.ttf"),
+    "font-PExtraLight": require("../assets/css/fonts/Poppins-ExtraLight.ttf"),
+    "font-PExtraLightItalic": require("../assets/css/fonts/Poppins-ExtraLightItalic.ttf"),
+    "font-PItalic": require("../assets/css/fonts/Poppins-Italic.ttf"),
+    "font-PLight": require("../assets/css/fonts/Poppins-Light.ttf"),
+    "font-PLightItalic": require("../assets/css/fonts/Poppins-LightItalic.ttf"),
+    "font-PMedium": require("../assets/css/fonts/Poppins-Medium.ttf"),
+    "font-PMediumItlaic": require("../assets/css/fonts/Poppins-MediumItalic.ttf"),
+    "font-PRegular": require("../assets/css/fonts/Poppins-Regular.ttf"),
+    "font-PSemiBold": require("../assets/css/fonts/Poppins-SemiBold.ttf"),
+    "font-PSemiBoldItalic": require("../assets/css/fonts/Poppins-SemiBoldItalic.ttf"),
+    "font-PThin": require("../assets/css/fonts/Poppins-Thin.ttf"),
+    "font-PThinItalic": require("../assets/css/fonts/Poppins-ThinItalic.ttf"),
   });
 
   useEffect(() => {
@@ -41,4 +41,4 @@ const _layout = () => {
   )
 }
 
-export default _layout
+export default Fonts
