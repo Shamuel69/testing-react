@@ -4,7 +4,7 @@ import { useFonts } from 'expo-font'
 import { SplashScreen, Stack } from 'expo-router'
 
 SplashScreen.preventAutoHideAsync();
-
+ 
 const _layout = () => {
   const [fontsLoaded, error] = useFonts({
     "Poppins-Black": require("../assets/css/fonts/Poppins-Black.ttf"),
