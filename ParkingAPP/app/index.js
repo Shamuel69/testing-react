@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react';
 import { StatusBar } from 'expo-status-bar'; 
 import { Link } from 'expo-router';
-import {./assets/css/color.css};
+import { ../assets/css/color.css };
 export default function Home(){
     return (
         <View style={width="100%", height="100%", backgroundColor="#f0f8ff"}>
