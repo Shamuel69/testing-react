@@ -6,7 +6,7 @@ import { Link } from 'expo-router';
 export default function Home(){
     return (
       <View>
-        <LinearGradient colors={['#18151C', '#181028', "", '#281649']} style={{height: "100%"}}>
+        <LinearGradient colors={['#18151C','#18151C', '#181028', "#1A1229","#1B112E","#1D1231", '#281649']} style={{height: "100%"}} useAngle={true} angle={45} angleCenter={{x: 2.5, y: 0}}>
         <View style={styles.header}>
             <Text>Parksie</Text>
         </View>
