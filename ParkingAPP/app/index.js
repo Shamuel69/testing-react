@@ -2,10 +2,9 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react';
 import { StatusBar } from 'expo-status-bar'; 
 import { Link } from 'expo-router';
-import { ../assets/css/color.css };
 export default function Home(){
     return (
-        <View style={width="100%", height="100%", backgroundColor="#f0f8ff"}>
+        <View style={styles.container}>
           <Text style={styles.title} >TEST!
             <View style={styles.inline_container}>
 
@@ -20,8 +19,9 @@ export default function Home(){
 
 const styles = StyleSheet.create({
     container: {
+      backgroundColor: 'rgb(42, 34, 54)',
+
       flex:1,
-      backgroundColor: "blue",
       alignItems: "center",
       justifyContent: "center",
     },
