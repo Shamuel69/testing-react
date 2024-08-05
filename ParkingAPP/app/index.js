@@ -1,41 +1,38 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react';
-import { LinearGradient } from 'expo-linear-gradient';
-import { StatusBar } from 'expo-status-bar'; 
-import { Link } from 'expo-router';
+import { Tabs, Redirect, Link } from 'expo-router';
+
 export default function Home(){
     return (
-      <View>
-        <LinearGradient colors={['#18151C','#18151C', '#181028', "#1A1229","#1B112E","#1D1231", '#281649']} style={{height: "100%"}} useAngle={true} angle={45} angleCenter={{x: 2.5, y: 0}}>
+      <View >
         <View style={styles.header}>
-            <Text>Parksie</Text>
+            <Text>SPORM</Text>
         </View>
         <View style={styles.container}>
-          <Text style={styles.title}>TEST!
-            <View style={styles.inline_container}>
-            </View>
-          </Text>
+            <Text style={styles.title}>TEST!
+              <View style={styles.inline_container}>
+              </View>
+            </Text>
         </View>
-        </LinearGradient>
       </View>
-        
-      
   )
 }
 
 
 const styles = StyleSheet.create({
+    
     header: {
+      height: 70,
       width: "100%",
-      height: "100%",
-      alignItems: "center",
+      paddingTop: 10,
       justifyContent: "center",
+      border: '2px solid #333',
       borderBottomColor: "white",
     },
     container: {
-      backgroundColor: '#251F30',
+      backgroundColor: '#16082A',
+      height:"100%",
       
-      flex:1,
       alignItems: "center",
       justifyContent: "center",
     },
