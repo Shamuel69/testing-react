@@ -11,7 +11,7 @@ const TabIcon = ({icon, color, name, focused}) => {
             resizeMode="contain"
             tintColor={color}
             className="w-6 h-6"/>
-            <Text>TabIcon</Text>
+            <Text className={'${focused ? font-PMedium} text-xs'}>{name}</Text>
         </View>
     )
 }
@@ -19,13 +19,21 @@ const TabIcon = ({icon, color, name, focused}) => {
 function TabLayout() {
   return (
     <>
-        <Tabs>
+        <Tabs screenOptions={{ tabBarShowLabel: false }}>
             <Tabs.Screen
                 name="home"
-                options={{ headerShown: false }}
-                tabBarIcon=({focused, color}) => (
-                    
-                )
+                options={{ 
+                    title: "Home",
+                    headerShown: false,
+                    tabBarIcon: ({color, focused}) => (
+                        <TabIcon
+                            icon={icons.icon}
+                            color={color}
+                            name="Home"
+                            focused={focused}></TabIcon>
+                    )
+                }}
+            />
         </Tabs>
     </>
   )

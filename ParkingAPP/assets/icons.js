@@ -1,3 +1,3 @@
-import icon from '../assets/icons/Icon.png';
+import icon from '../icons/Icon.png';
 
 export default icon
