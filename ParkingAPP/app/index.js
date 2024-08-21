@@ -6,13 +6,13 @@ export default function Home(){
     return (
       <View >
         <View style={styles.header}>
-            <Text>SPORM</Text>
+            <Text style={styles.title}>SPORM</Text>
         </View>
         <View style={styles.container}>
-            <Text style={styles.title}>TEST!
+            <Text style={styles.title}>TEST!</Text>
               <View style={styles.inline_container}>
+                <Link href="/home">go to home</Link>
               </View>
-            </Text>
         </View>
       </View>
   )
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
       justifyContent: "center",
     },
     title:{
-      fontSize: 35,
+      fontSize: 25,
       fontFamily: "font-PBold",
     },
     inline_container: {
